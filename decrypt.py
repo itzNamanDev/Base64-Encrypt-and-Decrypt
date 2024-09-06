@@ -1,10 +1,4 @@
-# Base64 encoded text
-encoded_text = input("Enter your encoded text here:")
-
-# Decode the base64 text
-decoded_text = base64.b64decode(encoded_text).decode()
-
-decoded_textaimport base64
+import base64
 
 # Base64 encoded text
 encoded_text = input("Enter your encoded text here: ")
